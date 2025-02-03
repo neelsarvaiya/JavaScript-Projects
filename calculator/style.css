@@ -1,0 +1,28 @@
+
+ .card {
+    width: 300px;
+    box-shadow: 1px 1px 15px -5px #000000;
+  }
+
+  #display {
+    width: 250px;
+    height: 40px;
+    margin: 10px -5px;
+    font-size: 25px;
+    padding: 0 10px;
+    text-align: end;
+    outline: none;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btn {
+    width: 48px;
+    font-size: 20px;
+    margin: 6px;
+  }
+  .btn:hover {
+    cursor: default;
+  }
