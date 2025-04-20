@@ -18,7 +18,6 @@ rect.addEventListener("mousemove", function (details) {
         gsap.to(rect, {
             backgroundColor: `rgb(0,0,${bluecolor})`,
         });
-        console.log();
     }
 });
 
